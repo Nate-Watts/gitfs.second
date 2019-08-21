@@ -20,6 +20,8 @@ git-vim-pathogen:
   git.latest:
     - name: https://github.com/tpope/vim-pathogen.git
     - target: /root/home/.vim/autoload
+
+git-salt-vim:
   git.latest:
     - name: https://github.com/saltstack/salt-vim.git
     - target: /root/home/.vim/bundle
