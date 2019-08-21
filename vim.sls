@@ -4,14 +4,12 @@ vim:
 /home/.vim/autoload:
   file.directory:
     - user: root
+    - makedirs: True
 
 /home/.vim/bundle:
   file.directory:
     - user: root
-
-pathogen:
-  pkg.installed
-    - name: 
+    - makedirs: True
 
 git-clone:
   git.cloned:
