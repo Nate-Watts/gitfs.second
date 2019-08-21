@@ -1,5 +1,10 @@
 vim:
-  pkg.installed
+  pkg.installed:
+    - pkgs:
+      - vim-X11
+      - vim-common
+      - vim-enhanced
+      - vim-minimal
 
 /home/.vim/autoload:
   file.directory:
