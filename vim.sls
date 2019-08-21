@@ -27,7 +27,7 @@ git-clone:
     - branch: master
     - target: /root/home/.vim/bundle
 
-/root/home/.vimrc
+/root/home/.vimrc:
   file.managed:
     - makedirs: True
     - contents:
