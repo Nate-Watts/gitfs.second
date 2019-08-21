@@ -17,7 +17,7 @@ vim:
     - makedirs: True
 
 git-clone:
-  git.cloned:
+  git.latest:
     - name: https://github.com/saltstack/salt-vim.git
     - branch: master
-    - target: /home/.vim/bundle
+    - target: /root/home/.vim/bundle
