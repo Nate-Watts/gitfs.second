@@ -26,6 +26,11 @@ git-salt-vim:
     - name: https://github.com/saltstack/salt-vim.git
     - target: /root/home/.vim/bundle
 
+git-jinja2-syntax:
+  git.latest:
+    - name: https://github.com/Glench/Vim-Jinja2-Syntax.git
+    - target: /root/home/.vim/bundle
+
 git-clone:
   git.latest:
     - name: https://github.com/saltstack/salt-vim.git
