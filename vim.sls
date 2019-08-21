@@ -40,3 +40,5 @@ git-clone:
       - filetype plugin indent on
       - syntax on
       - execute pathogen#infect()
+      - let g:sls_use_jinja_syntax = 1
+
